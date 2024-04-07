@@ -1,0 +1,25 @@
+{
+  "name": "prisma-1",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.17",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "prisma": "^5.12.1"
+  }
+}
